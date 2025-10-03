@@ -1,0 +1,106 @@
+{
+  "properties": [
+    {
+      "id": "sunset-villa-001",
+      "name": "Sunset Villa - Premium Real Estate Investment",
+      "description": "Luxury 4-bedroom villa located in the prestigious Sunset Boulevard area of Los Angeles. This prime investment property features ocean views, modern amenities, swimming pool, and is situated in one of the most desirable neighborhoods in the city.",
+      "address": "123 Sunset Boulevard, Los Angeles, CA 90210",
+      "totalValue": 500000,
+      "tokenSupply": 500000,
+      "pricePerToken": 1.0,
+      "currency": "USD",
+      "propertyType": "Residential Villa",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "squareFeet": 3500,
+      "yearBuilt": 2018,
+      "location": {
+        "city": "Los Angeles",
+        "state": "CA",
+        "zipCode": "90210",
+        "coordinates": {
+          "lat": 34.0901,
+          "lng": -118.4065
+        }
+      },
+      "investment": {
+        "expectedROI": "8-12%",
+        "monthlyRent": 3500,
+        "annualRent": 42000,
+        "propertyTax": 6037.50,
+        "insurance": 2400,
+        "netOperatingIncome": 33162.50
+      },
+      "legal": {
+        "propertyId": "LA-SUNSET-001",
+        "deedReference": "SAMPLE-DEED-REF-12345",
+        "title": "Clear Title",
+        "zoning": "Residential R1",
+        "taxAssessment": 485000
+      },
+      "amenities": [
+        "Swimming pool with spa",
+        "2-car garage",
+        "Modern kitchen with premium appliances",
+        "Hardwood flooring throughout",
+        "Smart home automation system",
+        "Landscaped garden with ocean views",
+        "Close to schools, shopping, and entertainment"
+      ],
+      "images": [
+        "/images/sunset-villa-main.jpg",
+        "/images/sunset-villa-kitchen.jpg",
+        "/images/sunset-villa-pool.jpg",
+        "/images/sunset-villa-bedroom.jpg"
+      ],
+      "documents": {
+        "propertyReport": "property-report.pdf",
+        "legalDocuments": "legal-docs.pdf",
+        "inspectionReport": "inspection-report.pdf",
+        "appraisal": "appraisal-report.pdf"
+      },
+      "management": {
+        "company": "RealToken Property Management LLC",
+        "contact": "management@realtoken.com",
+        "phone": "+1 (555) 123-4567"
+      },
+      "tenant": {
+        "status": "Occupied",
+        "leaseStart": "2024-01-01",
+        "leaseEnd": "2024-12-31",
+        "monthlyRent": 3500,
+        "depositAmount": 7000
+      },
+      "tokenization": {
+        "blockchain": "Polygon Mumbai",
+        "tokenStandard": "ERC-20",
+        "tokenSymbol": "SVT",
+        "contractAddress": "0x...",
+        "totalSupply": 500000,
+        "minInvestment": 10,
+        "maxInvestment": 10000
+      },
+      "risks": [
+        "Real estate market volatility",
+        "Tenant vacancy risk",
+        "Property damage or maintenance costs",
+        "Regulatory changes affecting tokenized assets",
+        "Liquidity risk for token trading"
+      ],
+      "ipfs": {
+        "metadataHash": "QmSampleHashForPropertyDocuments123456789",
+        "imageHash": "QmSampleImageHash987654321",
+        "documentHash": "QmSampleDocumentHash456789123"
+      },
+      "status": "active",
+      "launchDate": "2024-01-15",
+      "lastUpdated": "2024-01-20"
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2024-01-20T10:00:00Z",
+    "totalProperties": 1,
+    "description": "Property registry for RealToken hackathon demo"
+  }
+}
